@@ -1,10 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
+import { Calculator } from '../src/pages/calculator'
 
 function App() {
   return (
     <div className="App">
-     {/* Front end */}
+     <Calculator />
     </div>
   );
 }
